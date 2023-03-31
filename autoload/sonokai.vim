@@ -31,7 +31,7 @@ function! sonokai#get_palette(style, colors_override) "{{{
   if a:style ==# 'default'
     let palette = {
           \ 'black':      ['#181819',   '237',  'DarkGrey'],
-          \ 'bg_dim':     ['#211f21',   '232',  'Black'],
+          \ 'bg_dim':     ['NONE',      '232',  'NONE'],
           \ 'bg0':        ['NONE',      '235',  'Black'],
           \ 'bg1':        ['NONE',      '236',  'DarkGrey'],
           \ 'bg2':        ['#363944',   '236',  'DarkGrey'],
@@ -52,7 +52,7 @@ function! sonokai#get_palette(style, colors_override) "{{{
           \ 'blue':       ['#76cce0',   '110',  'Blue'],
           \ 'purple':     ['#b39df3',   '176',  'Magenta'],
           \ 'grey':       ['#7f8490',   '246',  'LightGrey'],
-          \ 'grey_dim':   ['#605d68',   '240'],
+          \ 'grey_dim':   ['#7f8490',   '246',  'LightGrey'],
           \ 'none':       ['NONE',      'NONE', 'NONE']
           \ }
   elseif a:style ==# 'shusia'
